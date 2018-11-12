@@ -32,7 +32,7 @@ Take the feature "Education" for example. The feature values are sorted by the c
 'Doctorate' => 15
 ```
 
-![Screen Shot 2018-11-08 at 9.44.39 PM](./static/Screen Shot 2018-11-08 at 9.44.39 PM.png)
+![Screen Shot 2018-11-08 at 9.44.39 PM](./static/1.png)
 
 All features and their HIR are **visualized** at **https://zhengxiangyue.github.io/adult_income/map.html**
 
@@ -78,9 +78,9 @@ Kind of unexpected at first glance, but reasonable... Basically, being a husband
 
 The visualized data for relationship and martial status is shown:
 
-![Screen Shot 2018-11-09 at 8.57.11 AM](./static/Screen Shot 2018-11-09 at 8.57.11 AM.png)
+![Screen Shot 2018-11-09 at 8.57.11 AM](./static/2.png)
 
-![Screen Shot 2018-11-09 at 8.57.29 AM](./static/Screen Shot 2018-11-09 at 8.57.29 AM.png)
+![Screen Shot 2018-11-09 at 8.57.29 AM](./static/3.png)
 
 ## Soft-margin SVM based on two features
 
@@ -102,7 +102,7 @@ y = 0.0 / 0.0 x +1.0000000000000309 / 0.0
 
 The data is shown(visit map.html for details):
 
-![Screen Shot 2018-11-10 at 9.01.02 PM](./static/Screen Shot 2018-11-10 at 9.01.02 PM.png) 
+![Screen Shot 2018-11-10 at 9.01.02 PM](./static/4.png) 
 
 The SVM gives meaningless boundary that predict all data as "<=50K" . In the 2D space, the boundary is parallel to y axis. 
 
